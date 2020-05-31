@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/// Font Sizes
+$fs-extra-large: 2.188vw !important;
+$fs-large: 1.51vw !important;
+$fs-medium: 1.25vw !important;
+$fs-small: 1.094vw !important;
+$fs-extra-small: 0.938vw !important;
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+$base-url: '/assets/' !default;
