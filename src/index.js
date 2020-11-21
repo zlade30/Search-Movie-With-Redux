@@ -1,11 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
+import { Provider } from 'react-redux'
+import store from './redux/config/store.config'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <React.Suspense fallback={''}>
-    <App />
+    <Provider store={store}>
+      <App />
+    </Provider>
   </React.Suspense>,
   document.getElementById('root')
 )
